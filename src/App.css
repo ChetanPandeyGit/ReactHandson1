@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgb(65, 177, 222), rgb(246, 131, 150), white);
+}
+
+#mainHead {
+    text-align: center;
+    text-shadow: 3px 3px aqua;
+}
+
+#dataContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+}

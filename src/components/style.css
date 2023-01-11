@@ -1,0 +1,51 @@
+.btns {
+    padding: 1rem 3rem;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: rgb(44, 68, 205);
+    font-weight: 500;
+    max-width: 24rem;
+}
+
+.btns:hover {
+    background-color: aqua;
+}
+
+.dataContent {
+    padding: 2rem 3rem;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: aquamarine;
+    font-weight: 500;
+    max-width: 48%;
+    min-height: 18rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 1rem;
+}
+
+#btnContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 4rem;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dataContent1 {
+    justify-self: start;
+}
+
+.dataContent2 {
+    justify-self: end;
+}
